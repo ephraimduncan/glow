@@ -37,7 +37,7 @@ dark: `#282828`<br>
 Add `glow-{color}` to glow the text with the specified colors
 
 ```html
-<p class="glow glow-primary">
+<p class="glow-primary">
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, vel.
 </p>
 ```
