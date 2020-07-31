@@ -1,0 +1,54 @@
+.glow {
+  font-weight: 100;
+  filter: blur(0.2px);
+}
+
+.glow-primary {
+  @include glow($primary);
+}
+.glow-secondary {
+  @include glow($secondary);
+}
+.glow-info {
+  @include glow($info);
+}
+.glow-light {
+  @include glow($light);
+}
+.glow-dark {
+  @include glow($dark);
+}
+.glow-success {
+  @include glow($success);
+}
+.glow-danger {
+  @include glow($danger);
+}
+.glow-warning {
+  @include glow($warning);
+}
+
+.glow-img-primary {
+  @include glow-img($primary);
+}
+.glow-img-secondary {
+  @include glow-img($secondary);
+}
+.glow-img-light {
+  @include glow-img($light);
+}
+.glow-img-dark {
+  @include glow-img($dark);
+}
+.glow-img-warning {
+  @include glow-img($warning);
+}
+.glow-img-info {
+  @include glow-img($info);
+}
+.glow-img-danger {
+  @include glow-img($danger);
+}
+.glow-img-success {
+  @include glow-img($success);
+}

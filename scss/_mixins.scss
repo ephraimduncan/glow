@@ -1,0 +1,9 @@
+@mixin glow($color) {
+  text-shadow: 0 0 10px $color,
+    0 0 20px adjust-hue($color: $color, $degrees: 15),
+    0 0 50px adjust-hue($color: $color, $degrees: 30);
+}
+
+@mixin glow-img($color) {
+  filter: drop-shadow(2px 4px 8px $color);
+}
