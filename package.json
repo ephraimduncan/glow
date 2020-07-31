@@ -1,15 +1,13 @@
 {
   "name": "glow-css",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "css",
+    "design",
+    "framework",
+    "utility"
+  ],
+  "author": "Ephraim Atta-Duncan",
+  "license": "MIT"
 }
