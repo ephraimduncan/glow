@@ -1,37 +1,48 @@
-.glow {
+.glow-primary {
   font-weight: 100;
   filter: blur(0.2px);
-}
-
-.glow-primary {
   text-shadow: 0 0 10px #0050fd, 0 0 20px #0011fd, 0 0 50px #2f00fd;
 }
 
 .glow-secondary {
+  font-weight: 100;
+  filter: blur(0.2px);
   text-shadow: 0 0 10px #a5a2a2, 0 0 20px #a5a3a2, 0 0 50px #a5a4a2;
 }
 
 .glow-info {
+  font-weight: 100;
+  filter: blur(0.2px);
   text-shadow: 0 0 10px #5aa2ff, 0 0 20px #5a79ff, 0 0 50px #655aff;
 }
 
 .glow-light {
+  font-weight: 100;
+  filter: blur(0.2px);
   text-shadow: 0 0 10px #ffffff, 0 0 20px white, 0 0 50px white;
 }
 
 .glow-dark {
+  font-weight: 100;
+  filter: blur(0.2px);
   text-shadow: 0 0 10px #282828, 0 0 20px #282828, 0 0 50px #282828;
 }
 
 .glow-success {
+  font-weight: 100;
+  filter: blur(0.2px);
   text-shadow: 0 0 10px #00ff0d, 0 0 20px #00ff4d, 0 0 50px #00ff8d;
 }
 
 .glow-danger {
+  font-weight: 100;
+  filter: blur(0.2px);
   text-shadow: 0 0 10px #ff2600, 0 0 20px #ff6600, 0 0 50px #ffa600;
 }
 
 .glow-warning {
+  font-weight: 100;
+  filter: blur(0.2px);
   text-shadow: 0 0 10px #fdec00, 0 0 20px #cffd00, 0 0 50px #90fd00;
 }
 

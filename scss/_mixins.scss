@@ -1,4 +1,6 @@
 @mixin glow($color) {
+  font-weight: 100;
+  filter: blur(0.2px);
   text-shadow: 0 0 10px $color,
     0 0 20px adjust-hue($color: $color, $degrees: 15),
     0 0 50px adjust-hue($color: $color, $degrees: 30);
