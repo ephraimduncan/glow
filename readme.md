@@ -8,12 +8,12 @@ A small CSS utility to make glow text and images.
 
 ### CSS quick start (easy)
 
-- Use the CDN URL: https://unpkg.com/glow-css@0.1.0/dist/css/glow.min.css.
+- Use the CDN URL: https://unpkg.com/glow-css@0.2.0/dist/css/glow.min.css.
 
 ```html
 <link
   rel="stylesheet"
-  href="https://unpkg.com/glow-css@0.1.0/dist/css/glow.min.css"
+  href="https://unpkg.com/glow-css@0.2.0/dist/css/glow.min.css"
 />
 ```
 
