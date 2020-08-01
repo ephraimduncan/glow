@@ -15,7 +15,6 @@
     <main>
       <header>
         <h1>Glow</h1>
-        <hr style="border: 0.1px solid gray; border-radius: 50%;" />
         <div class="badges">
           <img
             src="https://img.shields.io/badge/License-MIT-blue.svg"
@@ -30,118 +29,109 @@
       </header>
       <section class="installation">
         <h2>Installation</h2>
-        <ul>
-          <li>
-            Use the CDN URL:
-            <a href="https://unpkg.com/glow-css@0.2.0/dist/css/glow.min.css"
-              >https://unpkg.com/glow-css@0.2.0/dist/css/glow.min.css</a
-            >.
-          </li>
-        </ul>
+        <p>Use the CDN:</p>
         <pre><code class="lang-html">&lt;<span class="hljs-keyword">link</span>
   rel=<span class="hljs-string">"stylesheet"</span>
   href=<span class="hljs-string">"https://unpkg.com/glow-css@0.2.0/dist/css/glow.min.css"</span>
 /&gt;
 </code></pre>
       </section>
-      <section class="colors">
-        <h3 id="colors">Colors</h3>
-        <p style="color: #0050fd;">Primary <code>#0050fd</code></p>
-        <p style="color: #a5a2a2;">Secondary <code>#a5a2a2</code></p>
-        <p style="color: #00ff0d;">Success <code>#00ff0d</code></p>
-        <p style="color: #ff2600;">Danger <code>#ff2600</code></p>
-        <p style="color: #fdec00;">Warning <code>#fdec00</code></p>
-        <p style="color: #5aa2ff;">Info <code>#5aa2ff</code></p>
-        <p style="color: #ffffff; background: black;">
-          Light <code>#ffffff</code>
-        </p>
-        <p style="color: #282828;">Dark <code>#282828</code></p>
-      </section>
-      <section class="text">
-        <h3>Adding Glow to Text</h3>
-        <div class="code">
-          <p>
-            Add <code>glow-{color}</code> to glow the text with the specified
-            colors
-          </p>
-          <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"glow-primary"</span>&gt;</span>
+      <section class="styling">
+        <h2>Styling</h2>
+        <section class="colors">
+          <p class="ip">Colors</p>
+          <p style="color: #0050fd;">Primary <code>#0050fd</code></p>
+          <p style="color: #a5a2a2;">Secondary <code>#a5a2a2</code></p>
+          <p style="color: #00ff0d;">Success <code>#00ff0d</code></p>
+          <p style="color: #ff2600;">Danger <code>#ff2600</code></p>
+          <p style="color: #fdec00;">Warning <code>#fdec00</code></p>
+          <p style="color: #5aa2ff;">Info <code>#5aa2ff</code></p>
+          <p style="color: #ffffff;">Light <code>#ffffff</code></p>
+          <p style="color: #282828;">Dark <code>#282828</code></p>
+        </section>
+        <section class="text">
+          <p class="ip">Adding glow to Text</p>
+          <div class="code">
+            <p>
+              Add <code>glow-{color}</code> to glow the text with the specified
+              colors
+            </p>
+            <pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"glow-primary"</span>&gt;</span>
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, vel.
 <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 </code></pre>
-        </div>
-        <div class="preview">
-          <p class="glow-primary">Lorem ipsum dolor sit amet.</p>
-          <p class="glow-secondary">Lorem ipsum dolor sit amet.</p>
-          <p class="glow-success">Lorem ipsum dolor sit amet.</p>
-          <p class="glow-danger">Lorem ipsum dolor sit amet.</p>
-          <p class="glow-info">Lorem ipsum dolor sit amet.</p>
-          <p class="glow-warning">Lorem ipsum dolor sit amet.</p>
-          <p class="glow-light">Lorem ipsum dolor sit amet.</p>
-          <p class="glow-dark">Lorem ipsum dolor sit amet.</p>
-        </div>
-      </section>
-      <section class="image">
-        <h3>Adding Glow To Image</h3>
-        <div class="code">
-          <h3 id="images">Images</h3>
-          <p>
-            Add <code>glow-img-{color}</code> to glow the image.
-            <em>Recommended for images with transparent background</em>
-          </p>
-          <pre><code class="lang-html">&lt;img alt=<span class="hljs-string">"mario"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"glow-img-dark"</span> src=<span class="hljs-string">"./mario.png"</span> /&gt;
+          </div>
+          <div class="preview">
+            <p class="glow-primary">Lorem ipsum dolor sit amet.</p>
+            <p class="glow-secondary">Lorem ipsum dolor sit amet.</p>
+            <p class="glow-success">Lorem ipsum dolor sit amet.</p>
+            <p class="glow-danger">Lorem ipsum dolor sit amet.</p>
+            <p class="glow-info">Lorem ipsum dolor sit amet.</p>
+            <p class="glow-warning">Lorem ipsum dolor sit amet.</p>
+            <p class="glow-light">Lorem ipsum dolor sit amet.</p>
+            <p class="glow-dark">Lorem ipsum dolor sit amet.</p>
+          </div>
+        </section>
+        <section class="image">
+          <p class="ip">Adding glow to Image</p>
+          <div class="code">
+            <p>Add <code>glow-img-{color}</code> to glow the image.</p>
+            <pre><code class="lang-html">&lt;img alt=<span class="hljs-string">"mario"</span> <span class="hljs-keyword">class</span>=<span class="hljs-string">"glow-img-dark"</span> src=<span class="hljs-string">"./mario.png"</span> /&gt;
 </code></pre>
-        </div>
-        <div class="preview">
-          <img
-            alt="mario"
-            class="glow-img-primary"
-            src="https://sindresorhus.com/unicorn.svg"
-            width="10%"
-          />
-          <img
-            alt="mario"
-            class="glow-img-secondary"
-            src="https://sindresorhus.com/unicorn.svg"
-            width="10%"
-          />
-          <img
-            alt="mario"
-            class="glow-img-light"
-            src="https://sindresorhus.com/unicorn.svg"
-            width="10%"
-          />
-          <img
-            alt="mario"
-            class="glow-img-dark"
-            src="https://sindresorhus.com/unicorn.svg"
-            width="10%"
-          />
-          <img
-            alt="mario"
-            class="glow-img-danger"
-            src="https://sindresorhus.com/unicorn.svg"
-            width="10%"
-          />
-          <img
-            alt="mario"
-            class="glow-img-warning"
-            src="https://sindresorhus.com/unicorn.svg"
-            width="10%"
-          />
-          <img
-            alt="mario"
-            class="glow-img-success"
-            src="https://sindresorhus.com/unicorn.svg"
-            width="10%"
-          />
-          <img
-            alt="mario"
-            class="glow-img-info"
-            src="https://sindresorhus.com/unicorn.svg"
-            width="10%"
-          />
-        </div>
+          </div>
+          <div class="preview">
+            <img
+              alt="mario"
+              class="glow-img-primary"
+              src="https://sindresorhus.com/unicorn.svg"
+              width="10%"
+            />
+            <img
+              alt="mario"
+              class="glow-img-secondary"
+              src="https://sindresorhus.com/unicorn.svg"
+              width="10%"
+            />
+            <img
+              alt="mario"
+              class="glow-img-light"
+              src="https://sindresorhus.com/unicorn.svg"
+              width="10%"
+            />
+            <img
+              alt="mario"
+              class="glow-img-dark"
+              src="https://sindresorhus.com/unicorn.svg"
+              width="10%"
+            />
+            <img
+              alt="mario"
+              class="glow-img-danger"
+              src="https://sindresorhus.com/unicorn.svg"
+              width="10%"
+            />
+            <img
+              alt="mario"
+              class="glow-img-warning"
+              src="https://sindresorhus.com/unicorn.svg"
+              width="10%"
+            />
+            <img
+              alt="mario"
+              class="glow-img-success"
+              src="https://sindresorhus.com/unicorn.svg"
+              width="10%"
+            />
+            <img
+              alt="mario"
+              class="glow-img-info"
+              src="https://sindresorhus.com/unicorn.svg"
+              width="10%"
+            />
+          </div>
+        </section>
       </section>
+
       <section class="footer">
         <p>Made with 🦄 by <a href="https://github.com/dephraiim">Duncan</a></p>
       </section>

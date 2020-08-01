@@ -1,1 +1,44 @@
+* {
+  padding: 0;
+  margin: 5px 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica,
+    Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+  font-size: 1.3rem;
+  width: 70%;
+  margin: 10px auto;
+}
+
+header {
+  text-align: center;
+}
+
+header h1,
+.badges {
+  margin: 10px 0;
+}
+
+main section {
+  margin: 20px auto;
+}
+
+section h2 {
+  margin: 10px 0;
+}
+
+.text,
+.image,
+.colors {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.ip {
+  font: 2rem;
+  font-weight: 600;
+}
