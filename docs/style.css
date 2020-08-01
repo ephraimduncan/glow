@@ -35,10 +35,15 @@ section h2 {
 .colors {
   border: 1px solid black;
   border-radius: 20px;
-  padding: 1rem;
+  padding: 0.2rem 1rem;
 }
 
 .ip {
-  font: 2rem;
+  font-size: 2rem;
   font-weight: 600;
+}
+
+.logo {
+  color: white;
+  font-size: 4.5rem;
 }
