@@ -4,6 +4,8 @@
 
 A small CSS utility to make glow text and images.
 
+## [View Documentation](https://dephraiim.github.io/glow/)
+
 ## Installation
 
 ### CSS quick start (easy)
